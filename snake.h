@@ -18,7 +18,7 @@ private:
     char dir;    
     int vel,len;
 public:
-std::vector<std::string> colour={"=é","=æ","=è","=ç","=ê","=å"};
+    vector<string> colour={"ğŸŸ©","ğŸŸ¦","ğŸŸ¨","ğŸŸ§","ğŸŸª","ğŸŸ¥"};
     snake(COORD pos, int vel);
     ~snake();
     void change_dir(char dir);

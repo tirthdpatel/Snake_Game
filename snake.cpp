@@ -1,4 +1,4 @@
-#include "snake2.h"
+#include "snake.h"
 #include<bits/stdc++.h>
 using namespace std;
 #define LENGTH 30
@@ -99,5 +99,6 @@ COORD snake::set_pos(int a,int b)
 {
     head->pos.X=a;
     head->pos.Y=b;
-    tail=head; len=0;
+    tail=head; len=1;
 }
+

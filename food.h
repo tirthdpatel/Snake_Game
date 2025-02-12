@@ -12,7 +12,7 @@ private:
 
 public:
     int K;
-    vector<string> v={"=",">¿ ",">Z",">š",">¢",">©"}; 
+    vector<string> v={"ğŸ‡","ğŸª¿","ğŸ¥š","ğŸ¦š","ğŸ¦¢","ğŸ¦©"}; 
     vector<int> weights = {25,25,25,5,10,10};
     vector<int> scores = {10,10,10,30,20,20};
     food();
