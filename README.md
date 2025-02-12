@@ -7,7 +7,13 @@
 - Jeet Patel         - 202404026
 
 ---
+## Requirement to Run
+Code will Run in Windows only
+
+---
+
 ## Objective 
+
 
 The Snake Game is a classic arcade game where the player controls a
 snake that grows in size as it consumes food. The game ends if the snake
@@ -117,46 +123,48 @@ Snake.cpp contains all the definition of the function which are declared in Snak
 ---
 
 # How Code works
-The object for class snake is created at the centre of the grid which is declared globally.
-The object for class food is created globally.
-The Grid is defined as a class with
-- Private variables as its length and its breadth.
-- The public part creates a 2D matrix for movement of snake and generation of food within its boundary.
-To continuously update the grid we call the SetConsolCursorPosition function and hide_cursor function from windows.h.
-The gamestart function is defines various User Interface features for the game, and calls and controls all the above mentioned functions.
-The int main() function calls gamestart function.
+1. The object for class snake is created at the centre of the grid which is declared globally.
+2. The object for class food is created globally.
+3. The Grid is defined as a class with
+     - Private variables as its length and its breadth.
+     - The public part creates a 2D matrix for movement of snake and generation of food within its boundary.
+4. To continuously update the grid we call the SetConsolCursorPosition function and hide_cursor function from windows.h.
+5. The gamestart function is defines various User Interface features for the game, and calls and controls all the above mentioned functions.
+6. The int main() function calls gamestart function.
 
 ---
 # Feature of The Game
-The game starts with a Fancy Font which displays "SNAKE GAME", like in the classic game. Which after a 2sec delay is followed by a list of options which are:
- "PRESS t FOR TUTORIALS AND RULES"
-	It explains the basic rules of how the game works and tutorial show how           game should be played.It also displays what kind of food may appear and           what there corresponding points are.
+1. The game starts with a Fancy Font which displays "SNAKE GAME", like in the classic game.
+2. Which after a 2sec delay is followed by a list of options which are:
+	  - "PRESS t FOR TUTORIALS AND RULES"
+	  It explains the basic rules of how the game works and tutorial show how game should be played.It also displays what kind of food may appear and what there corresponding points are.
 
- "PRESS c TO CONTINUE TO THE GAME"
-         It basically proceeds to the start of the game.
- "PRESS esc TO EXIT THE GAME"
+	 - "PRESS c TO CONTINUE TO THE GAME"
+	     It basically proceeds to the start of the game.
+	 - "PRESS esc TO EXIT THE GAME"
 	     It basically stops execution of  code.
-   After pressing 'c' :
-       the game asks to choose the color for snake from 6 different choices.
-       After Selection of the color of snake you get a UI which shows "Let's Begin. Press ENTER To Start The Game".
-       Upon pressing 'Enter' game starts.
-       Whilst playing game screen continuously shows you the updated Score.
-      If the snake collides the Screen Shows GameOver Interface with Final Score and 2 options
-	  "PRESS r TO RESTART THE GAME" 
-		This will call the gamestart function again.
-	  "PRESS e TO EXIT" 
+3. After pressing 'c' 
+     - The game asks to choose the color for snake from 6 different choices.
+     - After Selection of the color of snake you get a UI which shows 
+         "Let's Begin. Press ENTER To Start The Game".
+    - Upon pressing 'Enter' game starts.
+    - Whilst playing game screen continuously shows you the updated Score.
+    - If the snake collides the Screen Shows GameOver Interface with Final Score and 2 options
+	      "PRESS r TO RESTART THE GAME" 
+			  This will call the gamestart function again.
+	       "PRESS e TO EXIT" 
 
-The food served to the snake are catagorized as following:
-	 Normal:
+4. The food served to the snake are catagorized as following:
+	- Normal:
 		"🐇" "🪿" "🥚" each are worth 10 points. If the snake eats them Size increases by 1 unit.
-	Exotic:
+	- Exotic:
 		"🦢" "🦩" each are worth 20 points. If the snake eats them Size increases by 2 units.
-	Ultra Exotic:
+	- Ultra Exotic:
 		"🦚" It is are worth 30 points. If the snake eats them Size increases by 3 units.
-Based on these categories each category has a different spawning rate
-		Normal has a spawning chance of 25% each.
-		Exotic has a spawning chance of 10% each.
-		Ultra Exotic has a spawning chance of 5%.
+5. Based on these categories each category has a different spawning rate
+	- Normal has a spawning chance of 25% each.
+	- Exotic has a spawning chance of 10% each.
+	- Ultra Exotic has a spawning chance of 5%.
 
 ---
 
@@ -170,7 +178,9 @@ Based on these categories each category has a different spawning rate
  7. Multi File Compilation
 
 ---
-
+# Acknowledgment
+Youtube : [ProgrammingKnowledge](https://www.youtube.com/@ProgrammingKnowledge)
+Chat GPT
 
 
 
