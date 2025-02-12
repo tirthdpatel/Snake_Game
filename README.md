@@ -180,7 +180,8 @@ Snake.cpp contains all the definition of the function which are declared in Snak
 ---
 # Acknowledgment
 Youtube : [ProgrammingKnowledge](https://www.youtube.com/@ProgrammingKnowledge)
-Chat GPT
+ 
+ Chat GPT
 
 
 
