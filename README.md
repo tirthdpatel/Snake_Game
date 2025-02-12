@@ -160,6 +160,15 @@ Based on these categories each category has a different spawning rate
 
 ---
 
+# What We Learnt
+ 1. Linked List 
+ 2. Conio.h
+ 3. Windows.h
+ 4. Random
+ 5. Classes
+ 6. Header Files
+ 7. Multi File Compilation
+
 ---
 
 
